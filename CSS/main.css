@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.background-image {
+    background-image: url("../IMAGES/pexels-nout-gons-378570.jpg");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .background-image .background-color {
+    background-color: rgba(163, 163, 163, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+  }
+  
+    .logoHome img {
+    position: relative;
+    height: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    filter: drop-shadow(0px 16px 10px rgba(0,0,0,0.6));
+}
+
+
+
+
+.footer-bg {
+    color: whitesmoke;
+    flex-wrap: wrap;
+    height: 50px;
+    display: flex;
+    height: 100%;
+margin-top: 10px;
+    justify-content: center;
+}
+
+
+
+
+.logoHome h2 {
+    color: rgb(29, 29, 29);
+    display: flow-root;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .logoHome h3 {
+    color: rgb(29, 29, 29);
+  
+    display: flow-root;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  p {
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    color: rgb(29, 29, 29);
+  
+    margin-bottom: 0;
+  }
+  
+  .hr-home {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #4a4a4a;
+    margin: 1em 0;
+    padding: 0;
+    opacity: 1;
+  }
+  
+  /* nosotros*/
+
+  .background-nosotros {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: flex;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    align-content: center;
+    display: grid;
+  }
+  
+  
+  
+  .otro-blockquote{
+    font-size: 1.6em;
+    width:60%;
+    margin:10px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #404040;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+  }
+  
+  #quote{
+    font-family:Arial;
+    content: "\201C";
+    color:#545454;
+    font-size:4em;
+    position: relative;
+    left: 10px;
+    top:-10px;
+  }
+  
+  
+  
+  .otro-blockquote span{
+    display:block;
+    color:#ffffff;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
+
+  /* contact*/
+
+  .form {
+    padding: 30px;
+    background-color: rgba(250, 250, 250, .7);
+    text-align:center;
+    height: 700px; 
+    width: 550px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+  
+
+}
+
+.form label {
+    display: flex;
+
+}
+
+.form button {
+  
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form small {
+    display: flex;
+    align-content: start;
+    font-size: 12px;
+    margin: 5px;
+    color: gray;
+}
+
+  /* experiencia */
+
+  .container {
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    
+    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2a2a2a;
+
+  }
+  
+  .container:hover .overlay {
+    opacity: .90;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }

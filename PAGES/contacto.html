@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="../IMAGES/logo.png" />
+
+    <title>CONURBAM</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/main.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark p-2">
+        <a class="navbar-brand" href="../index.html">C O N U R B A M</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../index.html">INICIO</a>
+
+            <a class="nav-item nav-link" href="./nosotros.html">NOSOTROS</a>
+            <a class="nav-item nav-link" href="./servicios.html">SERVICIOS</a>
+            <a class="nav-item nav-link" href="./contacto.html">CONTACTO</a>
+            <a class="nav-item nav-link" href="./experiencia.html"
+              >EXPERIENCIA</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="background-image">
+      <div class="background-color">
+        <form class="form" ref={form} >
+          <h1>CONTÁCTANOS</h1>
+          <label style= "margin-top: 10px" htmlFor="Nombre">
+            Nombre
+          </label>
+          <input
+            placeholder="Nombre y apellido"
+            id="Nombre"
+            type="text"
+            required
+            name="user_name"
+            class="form-control"
+          />
+    
+          <label style= "margin-top: 10px" htmlFor="correo">
+            Correo
+          </label>
+          <input
+            placeholder="email@example.com"
+            id="correo"
+            type="mail"
+            required
+            name="user_email"
+            class="form-control"
+          />
+    
+          <label style= "margin-top: 10px" htmlFor="uso">
+            Uso del Suelo
+          </label>
+          <input
+            placeholder="Vivienda, Comercio, Gimnasio, etc"
+            id="uso"
+            type="text"
+            required
+            name="user_landUse"
+            class="form-control"
+          />
+    
+          <label style= "margin-top: 10px" htmlFor="superficiem2">
+            Superficie del Proyecto
+          </label>
+          <input
+            placeholder="m2 aproximados"
+            id="superficiem2"
+            type="number"
+            required
+            name="user_measure"
+            class="form-control"
+          />
+    
+          <label style= "margin-top: 10px" htmlFor="descripcion">
+            Descripción
+          </label>
+          <textarea
+            placeholder="Breve descripcion del servicio requerido"
+            id="descripcion"
+            type="text"
+            required
+            maxLength="250"
+            rows="5"
+            class="form-control"
+            name="message"
+          ></textarea>
+          <small>Máximo 250 caracteres</small>
+    
+          <button
+            style=
+              "margin-top: 40px;
+              background: rgb(67, 67, 67)",
+            
+            type="submit"
+          >
+            ENVIAR
+          </button>
+        </form>
+      </div>
+      
+    </main>
+    <footer>
+      <div class="footer-bg bg-dark p-2">
+        <div><h6>conurbam@gmail.com</h6></div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
